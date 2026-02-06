@@ -1,8 +1,10 @@
 import Advancehooks from "./components/Advancehooks.jsx";
 import Card1 from "./components/Card1.jsx";
 import Counter from "./components/Counter.jsx";
+import Formhandling from "./components/Formhandling.jsx";
 import Hooks from "./components/Hooks.jsx";
 import Navbar from "./components/Navbar.jsx";
+import Notesapplication from "./components/Notesapplication.jsx";
 
 const App = () => {
   const btnclicked = () => {
@@ -50,6 +52,8 @@ const App = () => {
         {/* <Hooks /> */}
         {/* <Counter /> */}
         {/* <Advancehooks /> */}
+        {/* <Formhandling /> */}
+        <Notesapplication />
       </div>
     </>
   );
