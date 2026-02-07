@@ -5,6 +5,7 @@ import Formhandling from "./components/Formhandling.jsx";
 import Hooks from "./components/Hooks.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Notesapplication from "./components/Notesapplication.jsx";
+import Gallery from "./projects/Gallery.jsx";
 import Apicalling from "./reacttopics/Apicalling.jsx";
 import Localstorage from "./reacttopics/Localstorage.jsx";
 import Useeffect from "./reacttopics/Useeffect.jsx";
@@ -61,7 +62,8 @@ const App = () => {
         {/* <Localstorage /> */}
         {/* <Apicalling /> */}
         {/* <Useeffect /> */}
-        <Tuttorial1 />
+        {/* <Tuttorial1 /> */}
+        <Gallery />
       </div>
     </>
   );
