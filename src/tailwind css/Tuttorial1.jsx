@@ -13,20 +13,23 @@ const Tuttorial1 = () => {
     //   <div className="h-16  rounded-full bg-green-500 "></div>
     // </div>
 
-    <div className=" text-white">
-      <p>I appera on screen wider than 768px</p>
-      <div>ayush choudhary</div>
-      <div>choudhary</div>
-      <div
-        className="
-bg-green-500
-sm:bg-blue-500
-md:bg-yellow-500
-lg:bg-red-500
-"
-      >
-        Hello
-      </div>
+    //     <div className=" text-white">
+    //       <p>I appera on screen wider than 768px</p>
+    //       <div>ayush choudhary</div>
+    //       <div>choudhary</div>
+    //       <div
+    //         className="
+    // bg-green-500
+    // sm:bg-blue-500
+    // md:bg-yellow-500
+    // lg:bg-red-500
+    // "
+    //       >
+    //         Hello
+    //       </div>
+    //     </div>
+    <div className="bg-white dark:bg-black text-black dark:text-white">
+      Drak mode enabled
     </div>
   );
 };
