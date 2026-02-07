@@ -5,6 +5,10 @@ import Formhandling from "./components/Formhandling.jsx";
 import Hooks from "./components/Hooks.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Notesapplication from "./components/Notesapplication.jsx";
+import Apicalling from "./reacttopics/Apicalling.jsx";
+import Localstorage from "./reacttopics/Localstorage.jsx";
+import Useeffect from "./reacttopics/Useeffect.jsx";
+import Tuttorial1 from "./tailwind css/Tuttorial1.jsx";
 
 const App = () => {
   const btnclicked = () => {
@@ -53,7 +57,11 @@ const App = () => {
         {/* <Counter /> */}
         {/* <Advancehooks /> */}
         {/* <Formhandling /> */}
-        <Notesapplication />
+        {/* <Notesapplication /> */}
+        {/* <Localstorage /> */}
+        {/* <Apicalling /> */}
+        {/* <Useeffect /> */}
+        <Tuttorial1 />
       </div>
     </>
   );

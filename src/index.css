@@ -1,20 +1,20 @@
 @import "tailwindcss";
 
 body {
-  background-color: rgb(0, 0, 0);
-  color: rgb(251, 247, 247);
-  font-size: larger;
+  background-color: #10172a;
+  /* color: rgb(251, 247, 247); */
+  /* font-size: larger;
   margin: 5px;
-  padding: 15px;
+  padding: 15px; */
 }
 
-/* button {
+button {
   background-color: gray;
   color: white;
-  padding: 5px 5px;
+  padding: 5px 10px;
   margin: 15px;
   border-radius: 5px;
-} */
+}
 
 /* h1 {
   /* font-size: 100px; */
