@@ -8,6 +8,7 @@ import Notesapplication from "./components/Notesapplication.jsx";
 import Gallery from "./projects/Gallery.jsx";
 import Apicalling from "./reacttopics/Apicalling.jsx";
 import Localstorage from "./reacttopics/Localstorage.jsx";
+import Reactrouting from "./reacttopics/Reactrouting.jsx";
 import Useeffect from "./reacttopics/Useeffect.jsx";
 import Tuttorial1 from "./tailwind css/Tuttorial1.jsx";
 
@@ -63,7 +64,8 @@ const App = () => {
         {/* <Apicalling /> */}
         {/* <Useeffect /> */}
         {/* <Tuttorial1 /> */}
-        <Gallery />
+        {/* <Gallery /> */}
+        <Reactrouting />
       </div>
     </>
   );
