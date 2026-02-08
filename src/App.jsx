@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Advancehooks from "./components/Advancehooks.jsx";
 import Card1 from "./components/Card1.jsx";
 import Counter from "./components/Counter.jsx";
@@ -5,14 +6,17 @@ import Formhandling from "./components/Formhandling.jsx";
 import Hooks from "./components/Hooks.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Notesapplication from "./components/Notesapplication.jsx";
+import Reverseprops from "./pages/Reverseprops.jsx";
 import Gallery from "./projects/Gallery.jsx";
 import Apicalling from "./reacttopics/Apicalling.jsx";
 import Localstorage from "./reacttopics/Localstorage.jsx";
 import Reactrouting from "./reacttopics/Reactrouting.jsx";
 import Useeffect from "./reacttopics/Useeffect.jsx";
 import Tuttorial1 from "./tailwind css/Tuttorial1.jsx";
+import Contextapi from "./reacttopics/Contextapi.jsx";
 
 const App = () => {
+  const [theme, settheme] = useState("light");
   const btnclicked = () => {
     console.log("button is clicked");
   };
@@ -65,7 +69,10 @@ const App = () => {
         {/* <Useeffect /> */}
         {/* <Tuttorial1 /> */}
         {/* <Gallery /> */}
-        <Reactrouting />
+        {/* <Reactrouting /> */}
+        {/* <h1 className="text-3xl m-5">Theme is {theme}</h1>
+        <Reverseprops theme={theme} settheme={settheme} /> */}
+        <Contextapi theme={theme} />
       </div>
     </>
   );
