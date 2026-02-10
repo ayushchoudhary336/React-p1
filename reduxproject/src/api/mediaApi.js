@@ -8,7 +8,7 @@ export async function fetchphotos(query, page = 1, per_page = 15) {
     params: { query, page, per_page },
     headers: { Authorization: `Client-ID ${UNSPLASH_KEY}` },
   });
-  console.log(response.data.results);
+  // console.log(response.data.results);
 }
 
 export async function fetchvideos(query, per_page = 15) {
@@ -16,5 +16,5 @@ export async function fetchvideos(query, per_page = 15) {
     params: { query, per_page },
     headers: { Authorization: PEXELS_KEY },
   });
-  console.log(response.data.videos);
+  // console.log(response.data.videos);
 }
