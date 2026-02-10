@@ -12,7 +12,7 @@ const SearchBar = () => {
     settext("");
   };
   return (
-    <div className=" bg-black text-white">
+    <div className="bg-black text-white">
       <form
         onSubmit={(e) => {
           submithandler(e);
@@ -26,7 +26,7 @@ const SearchBar = () => {
             settext(e.target.value);
           }}
           required
-          className=" w-full bg-gray-800 text-white px-5 py-2  focus:outline-none hover:border-2 text-xl border-blue-800"
+          className=" w-full bg-gray-800 text-white px-5 py-2  focus:outline-none  border-2 border-blue-800"
           type="text"
           placeholder="search anything ....."
         />
